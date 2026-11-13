@@ -162,7 +162,7 @@ Em vez de responder direto ("está vulnerável, use isto"), o agente conduz a an
 | [`agent/persona.md`](agent/persona.md) | Alterado: seção "Modo mentor de cibersegurança" |
 | [`AGENTS.md`](AGENTS.md) | Alterado: linha da skill na tabela e arquivo de conhecimento listado |
 | `README.md` | Alterado: skill na tabela e esta seção |
-| [`lab/app.py`](lab/app.py) e [`lab/app_seguro.py`](lab/app_seguro.py) | Login de laboratório vulnerável a SQL Injection e a versão corrigida (consulta parametrizada) |
+| [`lab/app.py`](lab/app.py), [`lab/app_seguro.py`](lab/app_seguro.py) e [`lab/teste_sqli.py`](lab/teste_sqli.py) | Login de laboratório vulnerável a SQL Injection, a versão corrigida (consulta parametrizada) e um teste que compara os dois |
 | [`prints/`](prints/README.md) | Evidências da execução no agente |
 
 ### Como rodar o agente no harness (Hermes)
@@ -185,4 +185,5 @@ Todos os testes usam apenas código e servidores **meus, de laboratório**. A sk
 
 ### Evidências
 
-Prints em [`prints/`](prints/README.md): análise do `app.py`, perguntas de contexto do agente e comparação com um chat genérico.
+- Teste do laboratório (saída real do código): [`prints/teste-laboratorio.png`](prints/teste-laboratorio.png) e [`prints/teste-laboratorio.txt`](prints/teste-laboratorio.txt). O login vulnerável aceita a entrada com aspa e o corrigido a recusa. Gerado com `python lab/teste_sqli.py`.
+- Prints do agente no Hermes: ver [`prints/`](prints/README.md).

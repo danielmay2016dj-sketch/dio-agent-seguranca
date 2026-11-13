@@ -1,0 +1,11 @@
+== app.py (vulnerável) ==
+  [OK] credenciais corretas: login=True (esperado=True)
+  [OK] senha errada: login=False (esperado=False)
+  [FALHA] entrada com aspa no usuário: login=True (esperado=False)
+== app_seguro.py (corrigido) ==
+  [OK] credenciais corretas: login=True (esperado=True)
+  [OK] senha errada: login=False (esperado=False)
+  [OK] entrada com aspa no usuário: login=False (esperado=False)
+
+Vulnerável: 1 caso(s) com comportamento inesperado
+Corrigido:  0 caso(s) com comportamento inesperado
