@@ -10,3 +10,8 @@ Diagramas gerados para explicar o processo (não são prints de tela):
 
 - `diagrama-skill.png`: as 5 etapas da skill, o formato fixo de saída e as regras defensivas.
 - `diagrama-arquivos.png`: arquivos criados e alterados, e o resultado do teste do laboratório.
+
+## Demonstração da skill (feita com o Claude, não com o Hermes)
+
+`demonstracao-skill.md` mostra a skill de ponta a ponta: perguntas de contexto, análise no formato fixo, correção e validação. Foi conduzida com o Claude seguindo o `SKILL.md`, **não com o Hermes**, e o aviso está no topo do arquivo.
+

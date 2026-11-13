@@ -186,4 +186,5 @@ Todos os testes usam apenas código e servidores **meus, de laboratório**. A sk
 ### Evidências
 
 - Teste do laboratório (saída real do código): [`prints/teste-laboratorio.png`](prints/teste-laboratorio.png) e [`prints/teste-laboratorio.txt`](prints/teste-laboratorio.txt). O login vulnerável aceita a entrada com aspa e o corrigido a recusa. Gerado com `python lab/teste_sqli.py`.
+- Demonstração da skill de ponta a ponta: [`prints/demonstracao-skill.md`](prints/demonstracao-skill.md). Conduzida com o Claude seguindo o `SKILL.md`, **não com o Hermes**.
 - Diagramas do processo: [`prints/diagrama-skill.png`](prints/diagrama-skill.png) (as 5 etapas) e [`prints/diagrama-arquivos.png`](prints/diagrama-arquivos.png) (arquivos e resultado do teste). São diagramas, não prints de tela.
